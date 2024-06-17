@@ -1,0 +1,9 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.404);
+}

@@ -1,0 +1,62 @@
+.hfStyle {
+    background-color: aliceblue;
+    border-style: solid;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.federer_images {
+    text-align: center;
+}
+
+.federer_images img {
+    max-width: 20%;
+    min-width: 200px;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid black;
+
+}
+
+.last_image {
+    padding: 150px 0px;
+}
+
+body {
+    background-color: rgb(49, 93, 49);
+}
+
+@media (prefers-color-scheme: dark) {
+    .hfStyle {
+        background-color: black;
+        color: grey
+    }
+    body {
+        background-color: rgb(1, 43, 1);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .hfStyle {
+        background-color: aliceblue;
+        color: black;
+    }
+    body {
+        background-color: rgb(49, 93, 49);
+    }
+}
+
+@media screen and (min-width: 560px) {   /*this is for iPads*/
+
+    .federer_images img {
+        max-width: 40%;
+    }
+} 
+
+@media screen and (min-width: 1367px) { /*this is for anything larger than an iPad*/
+    
+    .federer_images img {
+        max-width: 20%;
+    }
+}
+

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    gap: 10px
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box1 {
+    flex-grow: .5;
+}
+
+.box2 {
+}
+
+.box3 {
+}
+
+.box4 {
+}
+
+.box5 {
+}

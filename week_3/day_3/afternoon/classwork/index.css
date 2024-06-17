@@ -1,0 +1,23 @@
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the flex container */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allow the items to wrap as needed */
+  gap: 10px; /* Space between items */
+  padding: 20px;
+  max-width: 960px; /* Maximum width of the gallery */
+  margin: auto; /* Center the gallery */
+}
+.gallery img {
+  flex: 1; /* Grow to fill available space */
+  width: calc(33.333% - 10px); /* Three items per row - gap */
+  height: 200px; /* Fixed height, or use 'auto' for natural height */
+  object-fit: cover; /* Cover the container without losing aspect ratio */
+}

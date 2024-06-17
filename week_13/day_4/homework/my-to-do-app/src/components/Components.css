@@ -1,0 +1,57 @@
+#list-container {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 150px;
+    margin: 5px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+
+#tasks-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button {
+    background-color: green;
+}
+
+.delete-button {
+    background-color: red;
+}

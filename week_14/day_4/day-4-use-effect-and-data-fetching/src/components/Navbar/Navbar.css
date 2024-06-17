@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(1, 1, 54, 0.918);
+  color: whitesmoke;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.411);
+}
+
+nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom:  2px solid whitesmoke;
+  margin-bottom: 3px;
+}
+

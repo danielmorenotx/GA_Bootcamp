@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tennis Haiku</title>
+</head>
+<body>
+
+<h1 class="boxStyle">A Tennis Haiku</h1>
+
+<section class="boxStyle" id="links">
+    <p><a href="./about.html">About</a></p>
+    <p><a href="mailto:dmoreno@indeed.com" target="_blank">Contact</a></p>
+</section>
+
+<section id="haiku">
+    <p id="fed">Federer's grace shines,</p>
+    <p id="rafa">Nadal's passion blazes bright,</p>
+    <p id="nole">Djokovic, steel might.</p>
+</section>
+
+<div id="form">
+    <form action="" class="boxStyle">
+        <label for="select_player">Select Player:</label>
+        <Select id="select_player" name="select_player">
+            <option value="Roger Federer">Federer</option>
+            <option value="Rafael Nadal">Nadal</option>
+            <option value="Novak Djokovic">Novak</option>
+        </Select>
+        <br>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        <br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</div>
+
+</body>
+
+<footer>
+    Federer Forever
+</footer>
+
+</html>

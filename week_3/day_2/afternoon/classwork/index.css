@@ -1,0 +1,32 @@
+.title {
+  color: darkred;
+  font-size: 40px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.border {
+  border: 2px dashed red;
+}
+
+.hide {
+  display: none;
+}
+
+.dark {
+  background-color: rgba(59, 58, 58, 0.596);
+}
+
+.section {
+  margin-top: 50px;
+  border: 2px dashed red;
+}
+
+.comment {
+  background-color: rgb(228, 225, 225);
+}
+
+.section {
+  display: none;
+  /* visibility: hidden; */
+}

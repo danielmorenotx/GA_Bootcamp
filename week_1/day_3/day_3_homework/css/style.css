@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://static-ssl.businessinsider.com/image/55a28b18ecad04204b81019c/01-40.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: aliceblue;
+    margin: auto;
+    width: max-content;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+#links {
+    text-align: center;
+    padding: 1px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+p {
+    font: 1em sans-serif;
+    text-align: center;
+}
+
+#haiku {
+    background-color: aliceblue;
+    margin: 10vh auto;
+    border: 2px solid;
+    width: 400px;
+    box-shadow: 5px 10px rgb(38, 34, 34);
+}
+
+#fed {
+    color: red;
+}
+
+#rafa {
+    color: orange;
+}
+
+#nole {
+    color: green;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.boxStyle {
+    background-color: aliceblue;
+    border-color: brown;
+    border-width: 10px;
+    border-style: solid;
+    box-shadow: 5px 10px rgb(38, 34, 34);
+}
